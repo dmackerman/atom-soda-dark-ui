@@ -1,11 +1,12 @@
 {
   "name": "atom-soda-dark-ui",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.0.0",
+  "author": "Dave Ackerman",
   "description": "Soda Dark theme for interface components",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/dmackerman/atom-soda-dark-ui",
   "engines": {
-    "atom": ">0.40.0"
+    "atom": ">=0.50.0"
   }
 }
