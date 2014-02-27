@@ -2,7 +2,9 @@
 
 A port of the Soda Dark theme for Atom.
 
-![http://dl.dropbox.com/u/68704/Screenshots/9tuk.png](port)
+![port](http://dl.dropbox.com/u/68704/Screenshots/9tuk.png)
+
+As seen with the Base 16 Tomorrow Night color scheme (included with Atom).
 
 Not a 100% port just yet. Still a WIP.
 
