@@ -22,8 +22,8 @@
     left: 0px;
     width: 100%;
     background-color: rgba(67, 67, 67, 1.0);
-    border-top: 1px solid @tab-border-color;
-    border-bottom: 1px solid @tab-bar-bottom-border-color;
+    border-top: 1px solid #575757;
+    border-bottom: 1px solid #3C3C3C;
   }
 
   .tab {
@@ -41,7 +41,7 @@
     box-shadow: inset -1px 1px 0 @tab-border-color, 4px 0px 4px rgba(0,0,0,.1);
 
     &, &:before {
-      background-image: -webkit-linear-gradient(top, lighten(#333, 7%), #333);
+      background-image: -webkit-linear-gradient(top, #444, #3d3d3d);
     }
 
     &:before {
@@ -53,7 +53,7 @@
       width: 40px;
       border-top-left-radius: @tab-radius;
       // -webkit-transform: skewX(133deg);
-      box-shadow: inset 1px 1px 0 @tab-border-color, -4px 0px 4px rgba(0,0,0,.1);
+      box-shadow: inset 1px 1px 0 @tab-border-color, -4px 0px 20px rgba(0,0,0,.1);
       border: none;
     }
 
@@ -84,7 +84,7 @@
     color: @text-color-highlight;
     box-shadow: inset -1px 1px 0 @tab-border-color, 4px -4px 4px rgba(0,0,0,.1);
     border: none;
-    font-weight: bold;;
+    // font-weight: bold;
 
     .title{
       position: relative;
@@ -96,7 +96,8 @@
     }
 
     &, &:before {
-      background-image: -webkit-linear-gradient(top, lighten(@tab-background-color-active, 7%), @tab-background-color-active);
+      // background-image: -webkit-linear-gradient(top, lighten(@tab-background-color-active, 7%), @tab-background-color-active);
+      background-image: -webkit-linear-gradient(top, #555, #434343);
       height: @tab-height + 1px;
     }
 
