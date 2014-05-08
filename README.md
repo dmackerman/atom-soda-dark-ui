@@ -8,7 +8,7 @@ As seen with the [Base 16 Tomorrow Night color scheme](https://github.com/atom/b
 
 ## To Install
 
-`apm install atom-soda-dark-ui`
+> $ apm install atom-soda-dark-ui
 
 Activated by going to the `Themes` section in the Settings view (`cmd + ,`) and selecting it from the
 `UI Themes` drop-down menu.
