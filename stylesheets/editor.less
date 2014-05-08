@@ -18,24 +18,3 @@
   background-color: lighten(@input-background-color, 5%);
   .selection .region { background-color: desaturate(@background-color-info, 50%); }
 }
-
-// FIXME: these should go in syntax themes?
-.editor .gutter.drop-shadow {
-  -webkit-box-shadow: -2px 0 10px 2px #222;
-}
-
-@-webkit-keyframes highlight {
-  from { background-color: rgba(100, 255, 100, 0.7); }
-  to { background-color: null; }
-}
-
-.editor .highlighted.selection .region {
-  -webkit-animation-name: highlight;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-iteration-count: 1;
-}
-
-.editor.is-focused .line-number.cursor-line-no-selection,
-.editor.is-focused .line.cursor-line {
-  background: #333;
-}
