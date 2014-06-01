@@ -1,31 +1,33 @@
 @import "ui-variables";
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-	color: #E7E7E7;
+  color: #E7E7E7;
 }
 
 .workspace {
   background-color: @app-background-color;
 }
 
-::-webkit-scrollbar {
+.scrollbars-visible-always {
+  ::-webkit-scrollbar {
     width: 7px;
     height: 7px;
-}
+  }
 
-::-webkit-scrollbar-corner {
+  ::-webkit-scrollbar-corner {
     background: rgba(38, 38, 38, 0);
-}
+  }
 
-::-webkit-scrollbar-track {
+  ::-webkit-scrollbar-track {
     background: rgba(38, 38, 38, 1.0);
-}
+  }
 
-::-webkit-scrollbar-thumb {
-	border-radius: 8px;
-	background: #474747;
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: #474747;
+  }
 }
