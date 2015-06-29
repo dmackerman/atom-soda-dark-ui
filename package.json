@@ -1,7 +1,7 @@
 {
   "name": "atom-soda-dark-ui",
   "theme": "ui",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Soda Dark theme for interface components",
   "license": "MIT",
   "repository": "https://github.com/dmackerman/atom-soda-dark-ui",
